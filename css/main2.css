@@ -1,7 +1,7 @@
 #contenido{
   display: grid;
   grid-template-columns: 2fr 1fr 1fr;
-  grid-template-rows:62vh 62vh 62vh;
+  grid-template-rows:63vh 63vh 63vh;
   grid-gap: 10px;
   margin-top: 10px;
 }
