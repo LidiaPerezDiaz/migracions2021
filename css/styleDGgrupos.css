@@ -1,0 +1,143 @@
+.image-box {
+    position: center;
+    margin: 15px 10px;
+    overflow: hidden;
+    width: 95%;
+    border-radius: 5%;
+}
+.image-box img {
+    max-width: 100%;
+    transition: all 0.3s;
+    display: block;
+    width: 100%;
+    border-radius: 3px;
+    transform: scale(1);
+}
+
+.image-box:hover img {
+    transform: scale(1.1);
+}
+
+
+.button{
+  border: 1px solid #5080af;
+  color: var(--light);
+  cursor: pointer;
+  padding: 5px 10px;
+  max-width: 100%;
+  border-radius: 20px;
+  overflow: visible;
+  color: #000;
+  text-decoration: none;
+}
+.button:hover {
+  background-color: #5080af;
+}
+
+h2 {
+  text-decoration: none;
+  color: #000;
+  text-align: center;
+  font-size: 32px;
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+h2 {
+  text-decoration: none;
+  color: #000;
+  text-align: center;
+  font-size: 32px;
+}
+h1{
+  color: #fff;
+  text-decoration: none;
+}
+h1 a{
+  color: #fff;
+  text-decoration: none;
+}
+
+#container {
+  display:grid;
+  grid-template-columns: 0.75fr 0.75fr 1.25fr;
+  grid-template-rows:  calc(18vh) calc(22vh) ;
+  grid-row-gap: 20px;
+  grid-column-gap: 10px;
+  margin-top: 10px;
+  padding-right: 100px;
+  padding-left: 100px;
+}
+
+#container .mhic {
+  grid-column: 1/3;
+  grid-row: 1/2;
+  position: relative;
+  overflow: hidden;
+}
+#container .mhic img{
+  width: 494px;
+  height: 104px;
+  transition: all 0.3s;
+  transform: scale(1);
+  display: block;
+  border-radius: 3px;
+}
+#container .mhic:hover img{
+  transform: scale(1.1);
+}
+#container .Eso {
+  grid-column: 3/4;
+  grid-row: 1/2;
+  position: relative;
+  overflow: hidden;
+}
+#container .Eso img{
+  width: 90%;
+  height: 90%;
+  transition: all 0.3s;
+  transform: scale(1);
+  display: block;
+  border-radius: 3px;
+  float: right;
+
+}
+#container .Eso:hover img{
+  transform: scale(1.1);
+}
+
+#container .textoterceroB {
+  grid-column: 1/4;
+  grid-row: 2/3;
+  text-align: center;
+  overflow: hidden;
+  text-overflow: clip;
+
+}
+#container .textoterceroB h2 {
+  color: #ab2a3e;
+  font-size: 30px;
+
+}
+#container .textoterceroB p {
+  color: #ab2a3e;
+  font-size: 20px;
+
+}
+#container .textoterceroB h4 {
+  color: #ab2a3e;
+  font-size: 40px;
+  margin-top: 12%;
+  text-align: center;
+  text-transform: uppercase;
+}

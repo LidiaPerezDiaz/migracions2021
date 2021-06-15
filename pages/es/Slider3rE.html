@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>testing</title>
+		<meta charset="utf-8"/>
+		<link rel="shortcut icon" href="../../img/Mhic-logo.png">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<meta name="author" content="SMX A"/>
+		<link rel="stylesheet" href="../../css/styleDGgruposA.css"/>
+		<link rel="stylesheet" href="../../css/socialicons.css"/>
+    <link rel="stylesheet" href="../../css/testing.css"/>
+		<link rel="stylesheet" href="../../css/main.css"/>
+
+
+	</head>
+	<body>
+<header>
+		<div id="cumtenedor">
+			<div class="cabecera">
+				<img src="../../img/barres.png" alt="INS Barres I Ones" class="logo"></div>
+			<div class="cabecera0"><h1>Projecte Migració</h1></div>
+			<div class="cabecera2"> <h1> <a href="https://agora.xtec.cat/insbarresiones/">INS Barres I Ones</a></</h1></div>
+		  <div class="navegacion1"> <button class="button"> <p class="cum-cum">  <a href="../../index.html"> Inicio </a> </p>   </button>  </div>
+		  <div class="navegacion2"> <button class="button"> <p class="cum-cum"> <a href="../../creditos/index.html"> Sobre </a> </p>  </button> </div>
+			<div class="navegacion3">
+				<div class="dropdown">
+				  <button class="dropbtn"><p class="cum-cum">Grupos</p> </button>
+					<div class="dropdown-content">
+	          <a href="https://agora.xtec.cat/insbarresiones/contacte/">Barres i Ones</a>
+	          <a href="smx.html">CFGM - SMX </a>
+	          <a href="3rESO_A.html">3r - ESO A</a>
+	          <a href="3rESO_B.html">3r - ESO B</a>
+	          <a href="3rESO_C.html">3r - ESO C</a>
+	          <a href="3rESO_D.html">3r - ESO D</a>
+	          <a href="3rESO_E.html">3r - ESO E</a>
+	        </div>
+				</div>
+	 		</div>
+			<div class="navegacion4">
+				<ul>
+					<li><a href="../ca/Entrevistas/Slider3rE.html"><img src="../../img/catalan.png" alt="" class="logo1"> </a></li>
+					<li><a href="Slider3rE.html"><img src="../../img/españa.webp" alt="" class="logo1"> </a></li>
+					<li><a href="https://www.youtube.com/channel/UCKyhsrKHk8PhzqdfbxlaYnQ"><img src="../../img/youtube.png" alt="" class="logo1"> </a></li>
+				</ul>
+			 </div>
+		 </div>
+</header>
+
+
+  <div class="slider">
+
+    <div id="img">
+      <img src="../../img/sliderE1.jpg">
+    </div>
+
+  </div>
+
+  <script>
+
+    var images = ['../../img/sliderE2.jpg', '../../img/sliderE3.jpg', '../../img/sliderE1.jpg',];
+
+    var x = 0;
+
+    var imgs = document.getElementById('img');
+
+    setInterval(slider, 2000);
+
+
+    function slider() {
+
+      if (x < images.length) {
+        x = x + 1;
+      } else {
+        x = 1;
+      }
+
+
+      imgs.innerHTML = "<img src=" + images[x - 1] + ">";
+
+
+    }
+
+
+  </script>
+
+<footer class="footer">
+	<p class="smx">SMX1 &copy; 2021, INS Barres I Ones</p>
+	<div class="effect jaques">
+			<div class="buttons">
+				<a href="https://www.facebook.com/a08044995" class="fb" title="Join us on Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+				<a href="https://twitter.com/iesbarresiones?lang=ca" class="tw" title="Join us on Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+				<a href="https://www.instagram.com/institutbarresiiones/" class="insta" title="Join us on Instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+			</div>
+		</div>
+</footer>
+</body>
+</html>

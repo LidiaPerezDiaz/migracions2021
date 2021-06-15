@@ -1,0 +1,36 @@
+#contenedor{
+  display: grid;
+  grid-template-rows: 70vh;
+  grid-template-columns: 1fr 1fr;
+}
+
+#contenedor .smxA{
+  grid-row: 1/2;
+  grid-column: 1/2;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 20px;
+}
+
+#contenedor .smxB{
+  grid-row: 1/2;
+  grid-column: 2/3;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 20px;
+}
+
+
+.card img{
+  width: 80%;
+  height: 60%;
+  display: block;
+  margin: auto;
+  padding-top: 2%;
+
+}
+h2{
+  text-align: center;
+}
+p{
+  text-align: center;
+  font-weight: bold;
+}
