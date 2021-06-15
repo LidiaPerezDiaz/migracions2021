@@ -225,22 +225,9 @@
   }
 }
 
-.footer{
-  text-align: center;
-  margin: 20px 20px;
-  box-shadow: var(--shadow);
-  background: #5080af;
-  display: flex;
-  justify-content: center;
-
-}
 
 
-.smx {
-  margin: 20px 20px;
- color: #000;
- font-size: 18px
-}
+
 
 #cumcumcumtenedor  {
   display:grid;

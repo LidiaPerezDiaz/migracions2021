@@ -71,7 +71,7 @@ h1 a{
 #container {
   display:grid;
   grid-template-columns: 0.75fr 0.75fr 1.25fr;
-  grid-template-rows:  calc(18vh) calc(22vh) ;
+  grid-template-rows:  calc(18vh) calc(26vh) ;
   grid-row-gap: 20px;
   grid-column-gap: 10px;
   margin-top: 10px;
